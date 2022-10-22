@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StepsCounter</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+  </head>
+  <body>
+    <div class="left-nav">
+      <nav>
+        <h1 class="hello">Hello Fable</h1>
+        <h2>Worst Day</h2>
+        <p class="worst-day">--- steps</p>
+        <h2>Average Day</h2>
+        <p class="average-day">--- steps</p>
+        <h2>Best Day</h2>
+        <p class="best-day">--- steps</p>
+        <h2>Total last 28 days</h2>
+        <p class="total-month">--- steps</p>
+        <h2>Total so far today</h2>
+        <p class="total-day">--- steps</p>
+        <h2>Biggest difference</h2>
+        <p class="big-dif">--- steps</p>
+      </nav>
+    </div>
+
+    
+    <main>
+      <h1 class="hello">Today</h1>
+      <svg width="900" height="200" class="today">    
+      </svg>
+    
+      <h1 class="hello">Last 28 days<h1>
+      <svg width="900" height="600" class="month">
+      </svg>
+    </main>
+    
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/today.js"></script>
+    <script src="js/month.js"></script>
+    <script src="js/stats.js"></script>
+    
+  </body>
+</html>
